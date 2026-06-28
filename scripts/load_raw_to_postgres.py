@@ -161,8 +161,8 @@ def insert_messages(cursor, messages):
                 (
                     msg.get("message_id"),
                     msg.get("channel_name"),
-                    msg.get("message_date"),
-                    msg.get("message_text"),
+                    msg.get("date"),
+                    msg.get("text"),
                     msg.get("views"),
                     msg.get("forwards"),
                     msg.get("has_media"),
