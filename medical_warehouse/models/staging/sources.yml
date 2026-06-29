@@ -6,3 +6,5 @@ sources:
 
     tables:
       - name: telegram_messages
+      
+      - name: image_detections

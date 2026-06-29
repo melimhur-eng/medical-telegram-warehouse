@@ -1,0 +1,19 @@
+version: 2
+
+models:
+
+  - name: fct_image_detections
+
+    description: Object detection results from YOLO
+
+    columns:
+
+      - name: message_id
+        tests:
+          - not_null
+
+      - name: image_category
+        tests:
+          - not_null
+
+      - name: confidence_score
